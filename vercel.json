@@ -1,0 +1,309 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.admarkdigitech.com"
+        }
+      ],
+      "destination": "https://admarkdigitech.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/chennel-Bending.html",
+      "destination": "/cnc-channel-bending-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/chennel_Bending_Aluminium.html",
+      "destination": "/cnc-aluminium-channel-bending-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/led-display.html",
+      "destination": "/led-display-screen.html",
+      "permanent": true
+    },
+    {
+      "source": "/led_Display_Indoor.html",
+      "destination": "/indoor-led-display-screen.html",
+      "permanent": true
+    },
+    {
+      "source": "/led_Display_Outdoor.html",
+      "destination": "/outdoor-led-display-screen.html",
+      "permanent": true
+    },
+    {
+      "source": "/led_Display_Vehicle.html",
+      "destination": "/vehicle-led-display-screen.html",
+      "permanent": true
+    },
+    {
+      "source": "/led_Display_Rental.html",
+      "destination": "/led-display-rental-services.html",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about-us.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc-router.html",
+      "destination": "/cnc-router-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Router_4'x8'.html",
+      "destination": "/4x8-cnc-router-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Router_5'x10'.html",
+      "destination": "/5x10-cnc-router-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Router_DoubleSpindle.html",
+      "destination": "/double-spindle-cnc-router-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Router_PatternStone_Marking.html",
+      "destination": "/cnc-stone-pattern-making-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc-laser.html",
+      "destination": "/cnc-laser-cutting-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Laser_2x3.html",
+      "destination": "/cnc-laser-cutting-machines-2x3.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Laser_4x3.html",
+      "destination": "/cnc-laser-cutting-machines-4x3.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Laser_4x4.html",
+      "destination": "/cnc-laser-cutting-machines-4x4.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Laser_8x4.html",
+      "destination": "/cnc-laser-cutting-machines-8x4.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Laser_CCD.html",
+      "destination": "/ccd-cnc-laser-cutting-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Laser_FiberLaser.html",
+      "destination": "/cnc-fiber-laser-cutting-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/printers.html",
+      "destination": "/digital-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex.html",
+      "destination": "/digital-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/eco_solvent.html",
+      "destination": "/eco-solvent-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_flated.html",
+      "destination": "/uv-flatbed-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_Hybrid.html",
+      "destination": "/hybrid-uv-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_roll_to_roll.html",
+      "destination": "/uv-roll-to-roll-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/gethray_1.8m.html",
+      "destination": "/gethray-1-8m-eco-solvent-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/gethray_3.2m.html",
+      "destination": "/gethray-3-2m-eco-solvent-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_flated_2x3.html",
+      "destination": "/2x3-uv-flatbed-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_flatbed_3x5.html",
+      "destination": "/3x5-uv-flatbed-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_flated_8x4.html",
+      "destination": "/8x4-uv-flatbed-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_hybrid_1.8m.html",
+      "destination": "/1-8m-uv-hybrid-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_hybrid_3.2m.html",
+      "destination": "/3-2m-uv-hybrid-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_rolltoroll_singlehead.html",
+      "destination": "/single-head-uv-roll-to-roll-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_rolltoroll_doublehead.html",
+      "destination": "/double-head-uv-roll-to-roll-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_rolltoroll_fourhead.html",
+      "destination": "/four-head-uv-roll-to-roll-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_rolltoroll_doublehead3.2.html",
+      "destination": "/3-2m-double-head-uv-roll-to-roll-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/uv_rolltoroll_fourhead3.2.html",
+      "destination": "/3-2m-four-head-uv-roll-to-roll-printers.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_512 42 PL.html",
+      "destination": "/konica-512-42pl-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_Admark_CK8+30PL.html",
+      "destination": "/konica-512i-30pl-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_AethraC8_positivepress.html",
+      "destination": "/aethra-c8-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_Allwin512i_C8.html",
+      "destination": "/allwin-512i-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_Aethra512i_A8.html",
+      "destination": "/aethra-512i-a8-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_Aethra512i_A8+.html",
+      "destination": "/aethra-512i-a8-plus-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_Allwin1024i_C8+.html",
+      "destination": "/allwin-1024i-c8-plus-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_Aethra1024i_A8+.html",
+      "destination": "/aethra-1024i-a8-plus-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_Aethra1024i_R8i.html",
+      "destination": "/aethra-1024i-r8i-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_AethraStarfire_AS4.html",
+      "destination": "/aethra-starfire-as4-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc-laser-cutting-machines-8x4..html",
+      "destination": "/cnc-laser-cutting-machines-8x4.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_512%2042%20PL.html",
+      "destination": "/konica-512-42pl-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Router_4%27x8%27.html",
+      "destination": "/4x8-cnc-router-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/cnc_Router_5%27x10%27.html",
+      "destination": "/5x10-cnc-router-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_Aethra512i_A8%2B.html",
+      "destination": "/aethra-512i-a8-plus-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_Allwin1024i_C8%2B.html",
+      "destination": "/allwin-1024i-c8-plus-flex-printing-machines.html",
+      "permanent": true
+    },
+    {
+      "source": "/flex_Aethra1024i_A8%2B.html",
+      "destination": "/aethra-1024i-a8-plus-flex-printing-machines.html",
+      "permanent": true
+    }
+  ]
+}
