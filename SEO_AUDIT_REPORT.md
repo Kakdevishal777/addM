@@ -82,7 +82,7 @@ This report documents the comprehensive SEO optimization performed on the Admark
 
 ### Phase 3: Header Component Updates
 
-#### 2.5 Updated components/header.html
+#### 2.5 Updated header.html
 **Changes:**
 - Added title attribute to logo link
 - Enhanced logo ALT text: "Admark Digitech Logo - Digital Printing & LED Display Solutions"
@@ -90,7 +90,7 @@ This report documents the comprehensive SEO optimization performed on the Admark
 
 ### Phase 4: Footer Component Updates
 
-#### 2.6 Updated components/footer.html
+#### 2.6 Updated footer.html
 **Changes:**
 - Added YouTube social media link with proper icon
 - Added title attributes to all social media links for accessibility
@@ -111,8 +111,8 @@ This report documents the comprehensive SEO optimization performed on the Admark
 | File | Lines Changed | Type of Change |
 |------|---------------|----------------|
 | `index.html` | ~50 | SEO meta tags, structured data, removed breadcrumbs |
-| `components/header.html` | ~5 | ALT/title attributes, menu text |
-| `components/footer.html` | ~8 | Added YouTube link, title attributes |
+| `header.html` | ~5 | ALT/title attributes, menu text |
+| `footer.html` | ~8 | Added YouTube link, title attributes |
 | `assets/script.js` | ~80 | Updated breadcrumb mapping |
 | `robots.txt` | NEW | Created for crawl control |
 | `sitemap.xml` | NEW | Created for page indexing |

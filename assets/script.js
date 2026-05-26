@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  ensureStylesheet("components/header.css");
-  loadComponent("header", "components/header.html");
-  loadComponent("footer", "components/footer.html");
+  ensureStylesheet("header.css");
+  loadComponent("header", "header.html");
+  loadComponent("footer", "footer.html");
   setupSlideshow();
   setupContactForm();
   setupProductAccordions();
